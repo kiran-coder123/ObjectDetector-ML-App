@@ -13,6 +13,8 @@
 		DD0CD5DD28F7F52200A83DA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD0CD5DB28F7F52200A83DA4 /* Main.storyboard */; };
 		DD0CD5DF28F7F52300A83DA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD0CD5DE28F7F52300A83DA4 /* Assets.xcassets */; };
 		DD0CD5E228F7F52300A83DA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD0CD5E028F7F52300A83DA4 /* LaunchScreen.storyboard */; };
+		DD0CD5EA28F7FEB400A83DA4 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DD0CD5E928F7FEB400A83DA4 /* Resnet50.mlmodel */; };
+		DD0CD5EC28F81F4F00A83DA4 /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DD0CD5EB28F81F4F00A83DA4 /* SqueezeNet.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		DD0CD5DE28F7F52300A83DA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD0CD5E128F7F52300A83DA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD0CD5E328F7F52300A83DA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD0CD5E928F7FEB400A83DA4 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
+		DD0CD5EB28F81F4F00A83DA4 /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		DD0CD5D428F7F52200A83DA4 /* ObjectDetector-ML-App */ = {
 			isa = PBXGroup;
 			children = (
+				DD0CD5E928F7FEB400A83DA4 /* Resnet50.mlmodel */,
+				DD0CD5EB28F81F4F00A83DA4 /* SqueezeNet.mlmodel */,
 				DD0CD5D528F7F52200A83DA4 /* AppDelegate.swift */,
 				DD0CD5D728F7F52200A83DA4 /* SceneDelegate.swift */,
 				DD0CD5D928F7F52200A83DA4 /* ViewController.swift */,
@@ -140,6 +146,8 @@
 			files = (
 				DD0CD5DA28F7F52200A83DA4 /* ViewController.swift in Sources */,
 				DD0CD5D628F7F52200A83DA4 /* AppDelegate.swift in Sources */,
+				DD0CD5EC28F81F4F00A83DA4 /* SqueezeNet.mlmodel in Sources */,
+				DD0CD5EA28F7FEB400A83DA4 /* Resnet50.mlmodel in Sources */,
 				DD0CD5D828F7F52200A83DA4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
